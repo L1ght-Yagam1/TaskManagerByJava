@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class TitleStrategy implements DataStrategy {
     @Override
-    public String readData(Scanner scanner) {
+    public  String readData(Scanner scanner) {
+        System.out.print("Введите название задачи: ");
         return scanner.nextLine();
     }
 

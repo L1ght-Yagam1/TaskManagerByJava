@@ -11,6 +11,7 @@ public class TaskManager {
             case 2 -> new ListTasksStrategy();
             case 3 -> new CompleteTaskStrategy();
             case 4 -> new RemoveTaskStrategy();
+            case 5 -> new AddTaskStrategy();
             default -> null;
         };
     }
