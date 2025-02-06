@@ -1,4 +1,4 @@
-package taskmanager;
+package taskmanager.models;
 
 public class Task {
     private String name;

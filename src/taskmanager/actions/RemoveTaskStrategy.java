@@ -1,9 +1,11 @@
-package taskmanager;
+package taskmanager.actions;
+
+import taskmanager.models.Task;
 
 import java.util.List;
 import java.util.Scanner;
 
-import static taskmanager.TaskUtils.getTaskNumber;
+import static taskmanager.utils.TaskUtils.getTaskNumber;
 
 public class RemoveTaskStrategy implements TaskAction {
     @Override

@@ -1,4 +1,9 @@
-package taskmanager;
+package taskmanager.actions;
+
+import taskmanager.inputs.DataStrategy;
+import taskmanager.inputs.DescriptionStrategy;
+import taskmanager.inputs.TitleStrategy;
+import taskmanager.models.Task;
 
 import java.util.List;
 import java.util.Scanner;
@@ -12,8 +17,6 @@ public class AddTaskStrategy implements TaskAction {
     public void execute(List<Task> tasks, Scanner scanner) {
         String title = titleStrategy.readData(scanner);
         var validatedTitle = titleStrategy.validateData(title);
-
-
 
         String description = descriptionStrategy.readData(scanner);
         var validatedDescription = descriptionStrategy.validateData(description);

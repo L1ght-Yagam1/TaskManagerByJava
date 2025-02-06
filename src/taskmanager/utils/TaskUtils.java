@@ -1,4 +1,4 @@
-package taskmanager;
+package taskmanager.utils;
 
 import java.util.Scanner;
 

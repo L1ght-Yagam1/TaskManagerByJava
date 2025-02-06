@@ -1,8 +1,8 @@
-package taskmanager;
+package taskmanager.inputs;
 
 import java.util.Scanner;
 
-public class DescriptionStrategy implements DataStrategy{
+public class DescriptionStrategy implements DataStrategy {
     @Override
     public  String readData(Scanner scanner) {
         System.out.print("Введите описание задачи: ");

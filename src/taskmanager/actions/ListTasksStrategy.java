@@ -1,4 +1,6 @@
-package taskmanager;
+package taskmanager.actions;
+
+import taskmanager.models.Task;
 
 import java.util.List;
 import java.util.Scanner;
